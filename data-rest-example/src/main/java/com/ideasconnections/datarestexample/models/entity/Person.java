@@ -10,7 +10,7 @@ public class Person {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer Id;
+    private Long Id;
 
     @Getter
     @Setter
@@ -21,4 +21,9 @@ public class Person {
     @Setter
     @Column
     private String lastName;
+
+    @Getter
+    @Setter
+    @Column
+    private Integer phone;
 }
