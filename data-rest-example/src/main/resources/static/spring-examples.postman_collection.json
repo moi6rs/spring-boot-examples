@@ -87,13 +87,27 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:8080/person",
+							"raw": "localhost:8080/person?page=1&size=3&sort=lastName,asc",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
 								"person"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "size",
+									"value": "3"
+								},
+								{
+									"key": "sort",
+									"value": "lastName,asc"
+								}
 							]
 						}
 					},
